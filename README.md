@@ -1,3 +1,8 @@
+# figs.land
+
+This is the `gh-pages` branch.
+
+
 ## Setup
 
 - `npm install -g http-server`
@@ -16,4 +21,4 @@
 
 ## Production
 
-- [https://inagua.github.io/fig.land](https://inagua.github.io/fig.land)
+- [https://inagua.github.io/figs.land](https://inagua.github.io/figs.land)
