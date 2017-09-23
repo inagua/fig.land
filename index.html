@@ -14,6 +14,14 @@
             background-color: gray;
         }
 
+        .node a text {
+            color: white;
+        }
+
+        .hyperlink {
+            fill: white;
+        }
+
         .link line {
             stroke: #696969;
         }
@@ -30,7 +38,7 @@
 
         .node text {
             font: 10px sans-serif;
-            pointer-events: none;
+            /*pointer-events: none;*/
         }
 
     </style>
@@ -92,10 +100,16 @@
             .attr("r", function(d) { return radius(d.size); })
             .style("fill", function(d) { return color(d.atom); });
 
-        node.append("text")
+        node.append("a")
+                .attr("xlink:href", function(d){return d.url;})  // <-- reading the new "url" property
+                .attr("target", "_blank")
+                // .attr("class", "hyperlink")
+        .append("text")
             .attr("dy", ".35em")
             .attr("text-anchor", "middle")
-            .text(function(d) { return d.atom; });
+            .style("fill", function(d) { return d.url ? 'white' : 'black'; })
+            .text(function(d) { return d.atom; })
+        ;
 
         function tick() {
             link.selectAll("line")

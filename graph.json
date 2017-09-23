@@ -4,8 +4,8 @@
 
     {"i": 1, "atom": "Technical", "size": 30},
       {"i": 2, "atom": "Languages", "size": 12},
-        {"i": 3, "atom": "TypeScript", "size": 12},
-        {"i": 4, "atom": "Swift", "size": 12},
+        {"i": 3, "atom": "TypeScript", "url":"http://babel.codes/TypeScript/index", "size": 12},
+        {"i": 4, "atom": "Swift", "url":"http:ioskit.io", "size": 12},
         {"i": 5, "atom": "Java", "size": 12},
           {"i": 6, "atom": "Java 5", "size": 12},
           {"i": 7, "atom": "Java 6", "size": 12},
@@ -31,7 +31,7 @@
       {"i": 26, "atom": "Theory of Constraints", "size": 10},
 
     {"i": 27, "atom": "Target (Releases)", "size": 30},
-      {"i": 28, "atom": "http://Kora.li", "size": 12},
+      {"i": 28, "atom": "Kora.li", "url": "http://Kora.li", "size": 12},
 
     {"i": 29, "atom": "Lean Startup", "size": 10},
     {"i": 30, "atom": "Management 3.0", "size": 10},
@@ -47,8 +47,8 @@
       {"i": 39, "atom": "Machine Learning", "size": 10},
     {"i": 40, "atom": "Blockchain", "size": 10}
 
-    , {"i": 41, "atom": "http://babel.codes", "size": 10}
-    , {"i": 42, "atom": "http://fig.land", "size": 10}
+    , {"i": 41, "atom": "babel.codes", "url": "http://babel.codes", "size": 10}
+    , {"i": 42, "atom": "fig.land", "url": "http://fig.land", "size": 10}
     , {"i": 43, "atom": "Softshake", "size": 10}
     , {"i": 44, "atom": "Agile Alchemist", "size": 10}
 
@@ -75,14 +75,18 @@
       , {"i": 62, "atom": "Deployment", "size": 10}
     , {"i": 63, "atom": "Microservices", "size": 10}
     , {"i": 64, "atom": "Tooling", "size": 10}
-      , {"i": 65, "atom": "Git", "size": 10}
+      , {"i": 65, "atom": "Git", "url":"https://github.com/seiza", "size": 10}
       , {"i": 66, "atom": "Maven", "size": 10}
+
+    , {"i": 67, "atom": "Storytelling", "size": 10}
+    , {"i": 68, "atom": "iOS-k.it", "url":"http:ioskit.io", "size": 10}
   ],
   "links": [
     {"source": 0, "target": 1,  "bond": 2, "info":"Me-Technical" }
     , {"source": 1, "target": 2,  "bond": 1, "info":"Technical-Languages" }
       , {"source": 2, "target": 3,  "bond": 1, "info":"Languages-TypeScript" }
       , {"source": 2, "target": 4,  "bond": 1, "info":"Languages-Swift" }
+      , {"source": 4, "target": 68,  "bond": 1, "info":"Swift-ioskit" }
       , {"source": 2, "target": 5,  "bond": 1, "info":"Languages-Java" }
         , {"source": 5, "target": 6,  "bond": 1, "info":"Java-5" }
         , {"source": 5, "target": 7,  "bond": 1, "info":"Java-6" }
@@ -141,6 +145,7 @@
     , {"source": 18, "target": 53,  "bond": 1, "info":"Tactical-DesignThinking" }
     , {"source": 18, "target": 54,  "bond": 1, "info":"Tactical-Teaming" }
       , {"source": 54, "target": 55,  "bond": 1, "info":"Teaming-CollectiveIntelligence" }
+    , {"source": 18, "target": 67,  "bond": 1, "info":"Tactical-Storytelling" }
 
   , {"source": 0, "target": 27,  "bond": 2, "info":"Me-Target" }
     , {"source": 27, "target": 28,  "bond": 1, "info":"Target-Korali" }
@@ -150,6 +155,7 @@
     , {"source": 27, "target": 43,  "bond": 1, "info":"Target-softshake" }
       , {"source": 28, "target": 43,  "bond": 1, "info":"Korali-softshake" }
     , {"source": 27, "target": 44,  "bond": 1, "info":"Target-Alchemists" }
+    , {"source": 27, "target": 68,  "bond": 1, "info":"Target-ioskit" }
 
   , {"source": 0, "target": 46,  "bond": 2, "info":"Me-Training" }
     , {"source": 46, "target": 47,  "bond": 1, "info":"Training-MachineLearning" }
