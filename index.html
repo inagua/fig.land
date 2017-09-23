@@ -2,9 +2,17 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>FIG.land</title>
+    <title>FIGs.land</title>
     <link rel="icon" type="image/png" href="favicon.png" />
     <style>
+
+        body {
+            background-color: gray;
+        }
+
+        svg {
+            background-color: gray;
+        }
 
         .link line {
             stroke: #696969;
@@ -29,13 +37,14 @@
 </head>
 
 <body>
+<a href="https://github.com/inagua/figs.land/" target="_blank" style="color: white; position: absolute; right: 20px; top: 20px;">On Github</a>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
 <script>
 
     var width = 960,
         height = 500;
     width = window.innerWidth - 10;
-    height = window.innerHeight - 10;
+    height = window.innerHeight - 20;
 
     var color = d3.scale.category20();
 
@@ -44,7 +53,9 @@
 
     var svg = d3.select("body").append("svg")
         .attr("width", width)
-        .attr("height", height);
+        .attr("height", height)
+        // .attr("fill", "white")
+    ;
 
     var force = d3.layout.force()
         .size([width, height])
