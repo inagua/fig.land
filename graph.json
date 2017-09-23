@@ -1,69 +1,159 @@
 {
   "nodes": [
-     {"i": 0, "atom": "Agile", "size": 12}
-    ,{"i": 1, "atom": "Iterative", "size": 12}
-    ,{"i": 2, "atom": "Change", "size": 12}
-    ,{"i": 3, "atom": "Incremental", "size": 12}
-    ,{"i": 4, "atom": "Add", "size": 12}
-    ,{"i": 5, "atom": "Story", "size": 10}
-    ,{"i": 6, "atom": "Velocity", "size": 10}
-    ,{"i": 7, "atom": "Timebox", "size": 10}
-    ,{"i": 8, "atom": "Iteration", "size": 10}
-    ,{"i": 9, "atom": "Right to make a mistake", "size": 10}
-    ,{"i":10, "atom": "Waste", "size": 10}
-    ,{"i":11, "atom": "Simplicity", "size": 10}
-    ,{"i":12, "atom": "Improvement", "size": 10}
-    ,{"i":13, "atom": "Backlogs", "size": 10}
-    ,{"i":14, "atom": "Estimation", "size": 10}
-    ,{"i":15, "atom": "NoEstimate", "size": 5}
-    ,{"i":16, "atom": "Flow", "size": 14}
-    ,{"i":17, "atom": "Motivation", "size": 10}
-    ,{"i":18, "atom": "Engagement", "size": 10}
-    ,{"i":19, "atom": "Intrinsec", "size": 5}
-    ,{"i":20, "atom": "Extrinsec", "size": 5}
-    ,{"i":21, "atom": "Transition", "size": 10}
-    ,{"i":22, "atom": "Scrum", "size": 10}
-    ,{"i":23, "atom": "Roles", "size": 10}
-    ,{"i":24, "atom": "Ceremonials", "size": 10}
-    ,{"i":25, "atom": "XP", "size": 10}
-    ,{"i":26, "atom": "Gamification", "size": 10}
-    ,{"i":27, "atom": "Scrum Master / Coach", "size": 10}
-    ,{"i":28, "atom": "Product Owner / Client", "size": 10}
-    ,{"i":29, "atom": "Team Member", "size": 10}
-    ,{"i":30, "atom": "Values", "size": 10}
-    ,{"i":31, "atom": "Practicies", "size": 10}
+    {"i": 0, "atom": "Jacques COUVREUR", "size": 60},
+
+    {"i": 1, "atom": "Technical", "size": 30},
+      {"i": 2, "atom": "Languages", "size": 12},
+        {"i": 3, "atom": "TypeScript", "size": 12},
+        {"i": 4, "atom": "Swift", "size": 12},
+        {"i": 5, "atom": "Java", "size": 12},
+          {"i": 6, "atom": "Java 5", "size": 12},
+          {"i": 7, "atom": "Java 6", "size": 12},
+          {"i": 8, "atom": "Java 7", "size": 12},
+          {"i": 9, "atom": "Java 8", "size": 12},
+          {"i": 10, "atom": "Java 9", "size": 12},
+      {"i": 11, "atom": "Programmings", "size": 12},
+        {"i": 12, "atom": "Object Oriented", "size": 12},
+        {"i": 13, "atom": "Functional", "size": 12},
+      {"i": 14, "atom": "Framworks", "size": 12},
+        {"i": 15, "atom": "Angular", "size": 12},
+          {"i": 16, "atom": "Angular 1", "size": 12},
+          {"i": 17, "atom": "Angular 2", "size": 12},
+
+    {"i": 18, "atom": "Tactical", "size": 30},
+      {"i": 19, "atom": "Agile", "size": 12},
+        {"i":20, "atom": "Scrum", "size": 10},
+        {"i":21, "atom": "XP", "size": 10},
+      {"i": 22, "atom": "Change Management", "size": 12},
+      {"i": 23, "atom": "Flow", "size": 14},
+      {"i": 24, "atom": "Motivation", "size": 10},
+      {"i": 25, "atom": "Gamification", "size": 10},
+      {"i": 26, "atom": "Theory of Constraints", "size": 10},
+
+    {"i": 27, "atom": "Target (Releases)", "size": 30},
+      {"i": 28, "atom": "http://Kora.li", "size": 12},
+
+    {"i": 29, "atom": "Lean Startup", "size": 10},
+    {"i": 30, "atom": "Management 3.0", "size": 10},
+    {"i": 31, "atom": "Kanban", "size": 10},
+    {"i": 32, "atom": "Lean / Toyota Way", "size": 10},
+    {"i": 33, "atom": "Holacracy", "size": 10},
+    {"i": 34, "atom": "Servant Leadership", "size": 10},
+
+    {"i": 35, "atom": "IoT", "size": 10},
+    {"i": 36, "atom": "Robotics", "size": 10},
+    {"i": 37, "atom": "Big Data / NoSQL", "size": 10},
+    {"i": 38, "atom": "Artificial Intelligence", "size": 10},
+      {"i": 39, "atom": "Machine Learning", "size": 10},
+    {"i": 40, "atom": "Blockchain", "size": 10}
+
+    , {"i": 41, "atom": "http://babel.codes", "size": 10}
+    , {"i": 42, "atom": "http://fig.land", "size": 10}
+    , {"i": 43, "atom": "Softshake", "size": 10}
+    , {"i": 44, "atom": "Agile Alchemist", "size": 10}
+
+    , {"i": 45, "atom": "Graphic Facilitation", "size": 10}
+
+    , {"i": 46, "atom": "Training", "size": 30}
+      , {"i": 47, "atom": "Coursera: Machine Learning", "size": 10}
+
+    , {"i": 48, "atom": "Systems Thinking", "size": 10}
+    , {"i": 49, "atom": "Business Model Generation", "size": 10}
+    , {"i": 50, "atom": "Accords toltèque", "size": 10}
+    , {"i": 51, "atom": "Homeostasis", "size": 10}
+    , {"i": 52, "atom": "Constructivism", "size": 10}
+    , {"i": 53, "atom": "Design Thinking", "size": 10}
+    , {"i": 54, "atom": "Team(ing)", "size": 10}
+    , {"i": 55, "atom": "Collective Intelligence", "size": 10}
+    , {"i": 56, "atom": "DevOps", "size": 10}
+
+    , {"i": 57, "atom": "Industrialisation", "size": 10}
+      , {"i": 58, "atom": "Testing", "size": 10}
+        , {"i": 59, "atom": "Unit Tests", "size": 10}
+    , {"i": 60, "atom": "Continuous", "size": 10}
+      , {"i": 61, "atom": "Integration", "size": 10}
+      , {"i": 62, "atom": "Deployment", "size": 10}
+    , {"i": 63, "atom": "Microservices", "size": 10}
+    , {"i": 64, "atom": "Tooling", "size": 10}
+      , {"i": 65, "atom": "Git", "size": 10}
+      , {"i": 66, "atom": "Maven", "size": 10}
   ],
   "links": [
-     {"source": 0, "target": 1,  "bond": 1, "info":"Agile-Iterative" }
-    ,{"source": 1, "target": 2,  "bond": 1, "info":"Iterative-Change" }
-    ,{"source": 1, "target": 8,  "bond": 1, "info":"Iterative-Iteration" }
-    ,{"source": 8, "target": 7,  "bond": 1, "info":"Iteration-Timebox" }
-    ,{"source": 1, "target": 6,  "bond": 1, "info":"Iterative-Velocity" }
-    ,{"source": 6, "target":10,  "bond": 1, "info":"Velocity-Waste" }
-    ,{"source":10, "target":11,  "bond": 1, "info":"Waste-Simplicity" }
+    {"source": 0, "target": 1,  "bond": 2, "info":"Me-Technical" }
+    , {"source": 1, "target": 2,  "bond": 1, "info":"Technical-Languages" }
+      , {"source": 2, "target": 3,  "bond": 1, "info":"Languages-TypeScript" }
+      , {"source": 2, "target": 4,  "bond": 1, "info":"Languages-Swift" }
+      , {"source": 2, "target": 5,  "bond": 1, "info":"Languages-Java" }
+        , {"source": 5, "target": 6,  "bond": 1, "info":"Java-5" }
+        , {"source": 5, "target": 7,  "bond": 1, "info":"Java-6" }
+        , {"source": 5, "target": 8,  "bond": 1, "info":"Java-7" }
+        , {"source": 5, "target": 9,  "bond": 1, "info":"Java-8" }
+        , {"source": 5, "target": 10,  "bond": 1, "info":"Java-9" }
+    , {"source": 1, "target": 11,  "bond": 1, "info":"Tactical-Programmings" }
+      , {"source": 11, "target": 12,  "bond": 1, "info":"Programmings-OO" }
+      , {"source": 11, "target": 13,  "bond": 1, "info":"Programmings-Functional" }
+    , {"source": 4, "target": 12,  "bond": 1, "info":"Swift-OO" }
+    , {"source": 4, "target": 13,  "bond": 1, "info":"Swift-Functional" }
+    , {"source": 1, "target": 14,  "bond": 1, "info":"Tactical-Framworks" }
+      , {"source": 14, "target": 15,  "bond": 1, "info":"Framworks-Angular" }
+        , {"source": 15, "target": 16,  "bond": 1, "info":"Angular-1" }
+        , {"source": 15, "target": 17,  "bond": 1, "info":"Angular-2" }
+    , {"source": 1, "target": 35,  "bond": 1, "info":"Technical-IoT" }
+    , {"source": 1, "target": 36,  "bond": 1, "info":"Technical-Robotics" }
+    , {"source": 1, "target": 37,  "bond": 1, "info":"Technical-BigData" }
+    , {"source": 1, "target": 38,  "bond": 1, "info":"Technical-AI" }
+      , {"source": 38, "target": 39,  "bond": 1, "info":"AI-MachineLearning" }
+    , {"source": 1, "target": 40,  "bond": 1, "info":"Technical-Blockchain" }
+    , {"source": 1, "target": 57,  "bond": 1, "info":"Technical-Industrialisation" }
+      , {"source": 57, "target": 58,  "bond": 1, "info":"Industrialisation-Testing" }
+        , {"source": 58, "target": 59,  "bond": 1, "info":"Testing-Unit" }
+      , {"source": 57, "target": 60,  "bond": 1, "info":"Industrialisation-Continuous" }
+        , {"source": 60, "target": 61,  "bond": 1, "info":"Continuous-Integration" }
+        , {"source": 60, "target": 62,  "bond": 1, "info":"Continuous-Deployment" }
+    , {"source": 1, "target": 64,  "bond": 1, "info":"Technical-Tooling" }
+      , {"source": 64, "target": 65,  "bond": 1, "info":"Tooling-Maven" }
+      , {"source": 64, "target": 66,  "bond": 1, "info":"Tooling-Git" }
+    , {"source": 1, "target": 63,  "bond": 1, "info":"Technical-Microservices" }
 
-	,{"source": 0, "target":22,  "bond": 1, "info":"Agile-Scrum" }
-	,{"source":22, "target":23,  "bond": 1, "info":"Scrum-Roles" }
-	,{"source":23, "target":27,  "bond": 1, "info":"Roles-SM" }
-	,{"source":23, "target":28,  "bond": 1, "info":"Roles-PO" }
-	,{"source":23, "target":29,  "bond": 1, "info":"Roles-TM" }
+  , {"source": 0, "target": 18,  "bond": 2, "info":"Me-Tactical" }
+    , {"source": 18, "target": 19,  "bond": 1, "info":"Tactical-Agile" }
+      , {"source": 19, "target": 20,  "bond": 1, "info":"Agile-Scrum" }
+      , {"source": 19, "target": 21,  "bond": 1, "info":"Agile-XP" }
+      , {"source": 19, "target": 29,  "bond": 1, "info":"Agile-Leanstartup" }
+      , {"source": 19, "target": 30,  "bond": 1, "info":"Agile-m30" }
+      , {"source": 19, "target": 31,  "bond": 1, "info":"Agile-Kanban" }
+      , {"source": 19, "target": 32,  "bond": 1, "info":"Agile-Lean" }
+      , {"source": 19, "target": 33,  "bond": 1, "info":"Agile-ServantLeadership" }
+      , {"source": 19, "target": 34,  "bond": 1, "info":"Agile-Holacracy" }
+      , {"source": 19, "target": 49,  "bond": 1, "info":"Agile-BMG" }
+      , {"source": 19, "target": 50,  "bond": 1, "info":"Agile-Tolteque" }
+      , {"source": 19, "target": 56,  "bond": 1, "info":"Agile-DevOps" }
+    , {"source": 18, "target": 22,  "bond": 1, "info":"Tactical-Change" }
+      , {"source": 22, "target": 51,  "bond": 1, "info":"Change-Homeostasis" }
+    , {"source": 18, "target": 23,  "bond": 1, "info":"Tactical-Flow" }
+    , {"source": 18, "target": 24,  "bond": 1, "info":"Tactical-Motivation" }
+    , {"source": 18, "target": 25,  "bond": 1, "info":"Tactical-Gamification" }
+    , {"source": 18, "target": 26,  "bond": 1, "info":"Tactical-ConstraintsTheory" }
+    , {"source": 18, "target": 48,  "bond": 1, "info":"Tactical-SystemsThinking" }
+    , {"source": 18, "target": 45,  "bond": 1, "info":"Tactical-GraphicFacilitation" }
+    , {"source": 18, "target": 52,  "bond": 1, "info":"Tactical-Constructivism" }
+      , {"source": 52, "target": 25,  "bond": 1, "info":"Constructivism-Gamification" }
+    , {"source": 18, "target": 53,  "bond": 1, "info":"Tactical-DesignThinking" }
+    , {"source": 18, "target": 54,  "bond": 1, "info":"Tactical-Teaming" }
+      , {"source": 54, "target": 55,  "bond": 1, "info":"Teaming-CollectiveIntelligence" }
 
-	,{"source": 0, "target":25,  "bond": 1, "info":"Agile-XP" }
-	,{"source":25, "target":30,  "bond": 1, "info":"XP-Values" }
-	,{"source":25, "target":31,  "bond": 1, "info":"XP-Practicies" }
-	,{"source":25, "target":23,  "bond": 1, "info":"XP-Roles" }
-	
-    ,{"source":14, "target": 6,  "bond": 1, "info":"Estimation-Velocity" }
-    ,{"source":14, "target":15,  "bond": 1, "info":"Estimation-NoEstimate" }
-	
-    ,{"source": 0, "target": 3,  "bond": 1, "info":"Agile-Incremental" }
-    ,{"source": 3, "target": 4,  "bond": 1, "info":"Incremental-Add" }
-    ,{"source": 2, "target": 9,  "bond": 1, "info":"Change-mistake" }
+  , {"source": 0, "target": 27,  "bond": 2, "info":"Me-Target" }
+    , {"source": 27, "target": 28,  "bond": 1, "info":"Target-Korali" }
+      , {"source": 28, "target": 16,  "bond": 1, "info":"Korali-Angular1" }
+    , {"source": 27, "target": 41,  "bond": 1, "info":"Target-babel" }
+    , {"source": 27, "target": 42,  "bond": 1, "info":"Target-fig" }
+    , {"source": 27, "target": 43,  "bond": 1, "info":"Target-softshake" }
+      , {"source": 28, "target": 43,  "bond": 1, "info":"Korali-softshake" }
+    , {"source": 27, "target": 44,  "bond": 1, "info":"Target-Alchemists" }
 
-    ,{"source":17, "target": 19,  "bond": 1, "info":"Motivation-Intrinsec" }
-    ,{"source":17, "target": 20,  "bond": 1, "info":"Motivation-Extrinsec" }
-    ,{"source":17, "target": 18,  "bond": 1, "info":"Motivation-Engagement" }
-    ,{"source":16, "target": 17,  "bond": 1, "info":"Flow-Motivation" }
-    ,{"source":16, "target": 18,  "bond": 1, "info":"Flow-Engagement" }
-	]
+  , {"source": 0, "target": 46,  "bond": 2, "info":"Me-Training" }
+    , {"source": 46, "target": 47,  "bond": 1, "info":"Training-MachineLearning" }
+      , {"source": 47, "target": 39,  "bond": 1, "info":"Coursera-MachineLearning" }
+    , {"source": 46, "target": 30,  "bond": 1, "info":"Training-m30" }
+  ]
 }
