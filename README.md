@@ -1,8 +1,10 @@
-## Setup
+This is the empty `master` branch.
 
-- `npm install -g http-server`
+See the [gh-pages](https://github.com/inagua/figs.land/tree/gh-pages) branch for the sources of the web site.
 
-## Run
+To work on:
 
-- `http-server &`
-- [http://127.0.0.1:8080](http://127.0.0.1:8080)
+```
+$ git clone https://github.com/inagua/figs.land
+$ git checkout gh-pages
+```
