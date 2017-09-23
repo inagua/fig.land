@@ -1,4 +1,6 @@
-# figs.land
+# FIGs.land
+
+> The field with all the fruits of the knowledge tree.
 
 This is the empty `master` branch.
 
