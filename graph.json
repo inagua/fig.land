@@ -80,6 +80,9 @@
 
     , {"i": 67, "atom": "Storytelling", "size": 10}
     , {"i": 68, "atom": "iOS-k.it", "url":"http:ioskit.io", "size": 10}
+
+    , {"i": 69, "atom": "Containerization", "url":"", "size": 10}
+    , {"i": 70, "atom": "Docker", "url":"http:ioskit.io", "size": 10}
   ],
   "links": [
     {"source": 0, "target": 1,  "bond": 2, "info":"Me-Technical" }
@@ -118,6 +121,8 @@
       , {"source": 64, "target": 65,  "bond": 1, "info":"Tooling-Maven" }
       , {"source": 64, "target": 66,  "bond": 1, "info":"Tooling-Git" }
     , {"source": 1, "target": 63,  "bond": 1, "info":"Technical-Microservices" }
+    , {"source": 1, "target": 69,  "bond": 1, "info":"Technical-Containerization" }
+    , {"source": 69, "target": 70,  "bond": 1, "info":"Containerization-Docker" }
 
   , {"source": 0, "target": 18,  "bond": 2, "info":"Me-Tactical" }
     , {"source": 18, "target": 19,  "bond": 1, "info":"Tactical-Agile" }
