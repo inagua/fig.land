@@ -5,7 +5,7 @@
     {"i": 1, "atom": "Technical", "size": 30},
       {"i": 2, "atom": "Languages", "size": 12},
         {"i": 3, "atom": "TypeScript", "url":"http://babel.codes/TypeScript/index", "size": 12},
-        {"i": 4, "atom": "Swift", "url":"http:ioskit.io", "size": 12},
+        {"i": 4, "atom": "Swift", "url":"http://ios-k.it/Swift/", "size": 12},
         {"i": 5, "atom": "Java", "size": 12},
           {"i": 6, "atom": "Java 5", "size": 12},
           {"i": 7, "atom": "Java 6", "size": 12},
@@ -82,7 +82,7 @@
     , {"i": 68, "atom": "iOS-k.it", "url":"http:ioskit.io", "size": 10}
 
     , {"i": 69, "atom": "Containerization", "url":"", "size": 10}
-    , {"i": 70, "atom": "Docker", "url":"http:ioskit.io", "size": 10}
+    , {"i": 70, "atom": "Docker", "url":"", "size": 10}
   ],
   "links": [
     {"source": 0, "target": 1,  "bond": 2, "info":"Me-Technical" }
