@@ -13,9 +13,9 @@
           {"i": 9, "atom": "Java 8", "size": 12},
           {"i": 10, "atom": "Java 9", "size": 12},
       {"i": 11, "atom": "Programmings", "size": 12},
-        {"i": 12, "atom": "Object Oriented", "size": 12},
+        {"i": 12, "atom": "Object Oriented (OOP)", "size": 12},
         {"i": 13, "atom": "Functional", "size": 12},
-      {"i": 14, "atom": "Framworks", "size": 12},
+      {"i": 14, "atom": "Frameworks", "size": 12},
         {"i": 15, "atom": "Angular", "size": 12},
           {"i": 16, "atom": "Angular 1", "size": 12},
           {"i": 17, "atom": "Angular 2", "size": 12},
@@ -83,6 +83,13 @@
 
     , {"i": 69, "atom": "Containerization", "url":"", "size": 10}
     , {"i": 70, "atom": "Docker", "url":"", "size": 10}
+
+    , {"i": 71, "atom": "Aspects (AOP)", "url":"", "size": 10}
+    , {"i": 72, "atom": "Actors", "url":"https://www.reactivedesignpatterns.com/videos.html", "size": 10}
+    , {"i": 73, "atom": "Agents (SMA)", "url":"", "size": 10}
+    , {"i": 74, "atom": "Nanotechnology", "url":"", "size": 10}
+    , {"i": 75, "atom": "Scala", "url":"", "size": 10}
+    , {"i": 76, "atom": "Akka", "url":"", "size": 10}
   ],
   "links": [
     {"source": 0, "target": 1,  "bond": 2, "info":"Me-Technical" }
@@ -96,13 +103,23 @@
         , {"source": 5, "target": 8,  "bond": 1, "info":"Java-7" }
         , {"source": 5, "target": 9,  "bond": 1, "info":"Java-8" }
         , {"source": 5, "target": 10,  "bond": 1, "info":"Java-9" }
-    , {"source": 1, "target": 11,  "bond": 1, "info":"Tactical-Programmings" }
+    , {"source": 1, "target": 11,  "bond": 1, "info":"Technical-Programmings" }
       , {"source": 11, "target": 12,  "bond": 1, "info":"Programmings-OO" }
       , {"source": 11, "target": 13,  "bond": 1, "info":"Programmings-Functional" }
-    , {"source": 4, "target": 12,  "bond": 1, "info":"Swift-OO" }
-    , {"source": 4, "target": 13,  "bond": 1, "info":"Swift-Functional" }
-    , {"source": 1, "target": 14,  "bond": 1, "info":"Tactical-Framworks" }
-      , {"source": 14, "target": 15,  "bond": 1, "info":"Framworks-Angular" }
+      , {"source": 11, "target": 71,  "bond": 1, "info":"Programmings-Aspects" }
+      , {"source": 11, "target": 72,  "bond": 1, "info":"Programmings-Actors" }
+      , {"source": 11, "target": 73,  "bond": 1, "info":"Programmings-Agents" }
+
+      , {"source": 4, "target": 12,  "bond": 1, "info":"Swift-OO" }
+      , {"source": 4, "target": 13,  "bond": 1, "info":"Swift-Functional" }
+
+      , {"source": 75, "target": 13,  "bond": 1, "info":"Scala-Functional" }
+      , {"source": 75, "target": 76,  "bond": 1, "info":"Scala-Akka" }
+      , {"source": 76, "target": 72,  "bond": 1, "info":"Akka-Actors" }
+
+    , {"source": 1, "target": 74,  "bond": 1, "info":"Technical-Nanotechnology" }
+    , {"source": 1, "target": 14,  "bond": 1, "info":"Technical-Frameworks" }
+      , {"source": 14, "target": 15,  "bond": 1, "info":"Frameworks-Angular" }
         , {"source": 15, "target": 16,  "bond": 1, "info":"Angular-1" }
         , {"source": 15, "target": 17,  "bond": 1, "info":"Angular-2" }
     , {"source": 1, "target": 35,  "bond": 1, "info":"Technical-IoT" }
