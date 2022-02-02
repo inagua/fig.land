@@ -1,6 +1,6 @@
 # Cryptomonnaie
 
-- [Blockchain](topics/cryptocurrency/blockchain)
+- [Blockchain](cryptocurrency/blockchain)
 - [Smart Contract](cryptocurrency/smartcontract)
-- [NFT](nft)
-- [Metaverse](./metaverse)
+- [NFT](cryptocurrency/nft)
+- [Metaverse](cryptocurrency/metaverse)
