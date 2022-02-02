@@ -1,6 +1,3 @@
-# Cryptomonnaie
+# Blockchain
 
-- blockchain
-- smart contract
-- NFT
-- Metaverse
+Soon...
