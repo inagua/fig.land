@@ -1,0 +1,5 @@
+# Bancaire
+
+## Glossary
+
+- `Private Equity`
